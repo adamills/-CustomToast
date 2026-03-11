@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CustomToast Examples"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btn_success"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Success Toast"
+        android:layout_margin="8dp" />
+
+    <Button
+        android:id="@+id/btn_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Error Toast"
+        android:layout_margin="8dp" />
+
+    <Button
+        android:id="@+id/btn_warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Warning Toast"
+        android:layout_margin="8dp" />
+
+    <Button
+        android:id="@+id/btn_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Info Toast"
+        android:layout_margin="8dp" />
+
+    <Button
+        android:id="@+id/btn_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Purple Toast"
+        android:layout_margin="8dp" />
+
+</LinearLayout>
